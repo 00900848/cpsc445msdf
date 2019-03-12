@@ -1,0 +1,47 @@
+header { color: white;
+		font-family: Georgia;
+		font-size: 300%;
+		text-align: center;
+		height: 130px;
+		padding-top: 15px; 
+		border-radius: 15px; }
+		
+main	{ padding: 15px;
+		color: white;
+		text-align: center;
+		font-family: Georgia; }
+		 
+body	{ background-color: #339966;
+		 background-image: linear-gradient(to top, #339966, #000000);
+		 background-repeat: no-repeat; }
+		 
+nav		{ text-align: center;
+		 background-color: #999900;
+		 font-size: 1.3em; }
+
+nav li	{ display: inline-block; }
+
+nav a 	{ text-decoration: none; 
+		 transition: color 1.5s linear;
+		 padding-left: 15px;
+		 padding-right: 15px; }
+
+nav a:link		{ color: #000000; }
+nav a:visited	{ color: #344873; }
+nav a:hover		{ color: #FFFFFF; }
+
+footer { text-align: center;
+		font-family: Georgia;
+		color: 999900; }
+
+@media only screen and (max-width: 37.5em) {
+
+	nav 	{ float: none; 
+			 width: auto;
+			 padding:0em; }
+		
+	main 	{ padding: 0px;
+			 margin: 0; }
+	
+	nav ul  { text-align: center; }
+}
