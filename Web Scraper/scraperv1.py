@@ -3,7 +3,6 @@
 import requests
 import re
 from bs4 import BeautifulSoup
-import re
 
 # Pricing pages
 
@@ -17,6 +16,11 @@ src = result.content
 soup = BeautifulSoup(src, 'html.parser')
 
 # print(soup.prettify())
-x = soup.find_all('div', class_='plan-foot')
-# print(x)
-# re.findall(([0-9.]*[0-9]+), x)
+
+# Bluehost details and prices
+
+# prices = soup.find_all('div', class_='plan-foot')
+# everything = soup.find_all('div', class_='bh-plan text-center list-view')
+plan_details = soup.find_all('ul', class_='list-unstyled bh-plan-list')
+print(plan_details)
+# re.find_all([-+]?[0-9]*(\.[0-9]+), x)
