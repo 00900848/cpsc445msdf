@@ -13,7 +13,8 @@ main	{ padding: 15px;
 		 
 body	{ background-color: #6AB187;
 		 background-image: linear-gradient(to top, #6AB187, #F4CC70);
-		 background-repeat: no-repeat; }
+		 background-repeat: no-repeat;
+		 padding-bottom: 100px; }
 		 
 nav		{ text-align: center;
 		 background-color: #20948B;
@@ -32,7 +33,12 @@ nav a:hover		{ color: #FFFFFF; }
 
 footer { text-align: center;
 		font-family: Georgia;
-		color: WHITE; }
+		font-size: 70%;
+		color: WHITE;
+		height: 100px;
+		bottom: 0;
+		position: absolute;
+		width: 100%; }
 
 @media only screen and (max-width: 37.5em) {
 
