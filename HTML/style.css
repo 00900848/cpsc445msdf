@@ -1,4 +1,4 @@
-header { color: white;
+header { color: WHITE;
 		font-family: Georgia;
 		font-size: 300%;
 		text-align: center;
@@ -11,12 +11,12 @@ main	{ padding: 15px;
 		text-align: center;
 		font-family: Georgia; }
 		 
-body	{ background-color: #566573;
-		 background-image: linear-gradient(to top, #566573, #000000);
+body	{ background-color: #6AB187;
+		 background-image: linear-gradient(to top, #6AB187, #F4CC70);
 		 background-repeat: no-repeat; }
 		 
 nav		{ text-align: center;
-		 background-color: #999900;
+		 background-color: #20948B;
 		 font-size: 1.3em; }
 
 nav li	{ display: inline-block; }
@@ -32,7 +32,7 @@ nav a:hover		{ color: #FFFFFF; }
 
 footer { text-align: center;
 		font-family: Georgia;
-		color: 999900; }
+		color: WHITE; }
 
 @media only screen and (max-width: 37.5em) {
 
