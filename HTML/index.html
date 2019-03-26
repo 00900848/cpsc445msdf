@@ -4,6 +4,14 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <title>My Website Guide</title>
 <meta charset="utf-8">
+<script type="text/javascript">
+	function goToNextPage() {
+		var url = document.getElementById('list').value;
+		if (url != 'none') {
+			window.location = url;
+		}
+	}
+</script>
 </head>
 	<body>
 	<header>My Website Guide</header>
@@ -11,16 +19,19 @@
 	<nav><a href="index.html">Home</a></nav>
 		<main>
 			<p>What kind of website do you want to create?</p>
-			<select name="drop-menu" onchange="location = this.value;">
-				<option value=“blog.html”>Blog</option>
-				<option value=“videostreaming.html”>Video Streaming</option>
-				<option value=“personalwebsite.html”>Personal Website</option>
-				<option value=“business.html”>Business</option>
-				<option value=“informational.html”>Informational</option>
-				<option value=“socailmedia.html”>Social Media</option>
-				<option value=“filestoragesharing.html”>File Storage/Sharing</option>
-				<option value=“paymentprocessor.html”>Payment Processor</option>
-			</select>
+			<form>
+				<select name="list" id="list" accesskey="target">
+					<option value="none" selected>Choose a website category</option>
+					<option value="blog.html">Blog</option>
+					<option value="videostreaming.html">Video Streaming</option>
+					<option value="personalwebsite.html">Personal Website</option>
+					<option value="business.html">Business</option>
+					<option value="informational.html">Informational</option>
+					<option value="socialmedia.html">Social Media</option>
+					<option value="filestorage.html">File Storage/Sharing</option>
+				</select>
+				<input type="button" value="Next" onclick="goToNextPage()">
+			</form>
 			<br>
 		</main>
 
