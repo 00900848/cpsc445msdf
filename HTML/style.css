@@ -37,7 +37,6 @@ footer { text-align: center;
 		color: WHITE;
 		height: 100px;
 		bottom: 0;
-		position: absolute;
 		width: 100%; }
 
 @media only screen and (max-width: 37.5em) {
