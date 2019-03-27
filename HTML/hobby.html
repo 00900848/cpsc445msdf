@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>My Website Guide :: Personal Website</title>
+<meta charset="utf-8">
+<script type="text/javascript">
+	function goToNextPage() {
+		var url = document.getElementById('list').value;
+		if (url != 'none') {
+			window.location = url;
+		}
+	}
+</script>
+</head>
+	<body>
+	<header>My Website Guide</header>
+	<br>
+	<nav><a href="index.html">Home</a></nav>
+		<main>
+			<p>What kind of personal website do you want to create?</p>
+			<form>
+				<select name="list" id="list" accesskey="target">
+					<option value="none" selected>Choose a website category</option>
+					<option value="landingpage.html">Landing Page</option>
+					<option value="portfolio.html">Portfolio</option>
+					<option value="virtualresume.html">Virtual Resume</option>
+					<option value="hobby.html">Hobby</option>
+				</select>
+				<br>
+				<input type="button" value="Next" onclick="goToNextPage()">
+			</form>
+			<br>
+		</main>
+		<div id="wp-bh">
+			<h3>Option 1</h3>
+			<ul>
+				<li><a href="https://wordpress.com/pricing/">Wordpress: Publishing Platform</a>
+					<ul>
+						<li>Free Tier
+							<ul>
+								<li>3 GB storage space</li>
+								<li>Basic design customization</li>
+								<li>Wordpress.com subdomain</li>
+							</ul>
+						</li>
+						<li>$5 per month billed annually
+							<ul>
+								<li>6 GB storage space</li>
+								<li>Removes wordpress ads</li>
+								<li>Free domain for 1 year</li>
+							</ul>
+						</li>
+						<li>$8 per month billed annually
+							<ul>
+								<li>13 GB storage space</li>
+								<li>Website monetization and PayPal integration</li>
+								<li>Free domain for 1 year</li>
+							</ul></li>
+					</ul></li>
+				<li><a href="https://www.bluehost.com/special/wordpress">Bluehost: Web Hosting</a>
+					<ul>
+						<li>Starting $2.95 per month, then $7.99 per month
+							<ul>
+								<li>50 GB storage space</li>
+								<li>Host 1 website only</li>
+								<li>Free domain for 1 year</li>
+							</ul>
+						</li>
+						<li>Starting $4.95 per month, then $10.99 per month
+							<ul>
+								<li>Uncapped website space</li>
+								<li>Unlimited websites</li>
+								<li>Free domain for 1 year</li>
+							</ul></li>
+					</ul></li>
+			</ul>
+		</div>
+		<div id="ss">
+			<h3>Option 2</h3>
+			
+		</div>
+		<footer>
+			<br><br><br>
+			Creators’ E-Mail: <br><br>
+			<a href="mailto:David.Farrell.15@cnu.edu">David.Farrell.15@cnu.edu</a> &nbsp;
+			<a href="mailto:Matthew.Schuler.14@cnu.edu">Matthew.Schuler.14@cnu.edu</a><br>
+		</footer>
+
+	</body>
+</html>
