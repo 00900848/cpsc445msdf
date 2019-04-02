@@ -41,41 +41,44 @@ footer { text-align: center;
 		bottom: 0;
 		width: 100%; }
 
-.container {
-
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 #wordpress-bluehost {
 	box-shadow: 10px 10px #DE7A22;
-	margin-right: 700px;
+	margin-right: 20px;
 	border-style: solid;
 	border-width: 4px;
 	border-color: #20948B;
-	padding: 30px;
+	padding: 10px;
 	color: white;
-	font-size: 130%;
+	font-size: 90%;
 }
 
 #squarespace {
 	box-shadow: 10px 10px #DE7A22;
-	margin-right: 700px;
+	margin-right: 20px;
 	border-style: solid;
 	border-width: 4px;
 	border-color: #20948B;
-	padding: 30px;
+	padding: 10px;
 	color: white;
-	font-size: 130%;
+	font-size: 90%;
 }
 
 #wix {
 	box-shadow: 10px 10px #DE7A22;
-	margin-right: 700px;
+	margin-right: 20px;
 	border-style: solid;
 	border-width: 4px;
 	border-color: #20948B;
-	padding: 30px;
+	padding: 10px;
 	color: white;
-	font-size: 130%;
+	font-size: 90%;
 }
 
 @media only screen and (max-width: 37.5em) {
