@@ -48,30 +48,9 @@ footer { text-align: center;
 	justify-content: center;
 }
 
-#wordpress-bluehost {
+.option {
 	box-shadow: 10px 10px #DE7A22;
-	margin-right: 20px;
-	border-style: solid;
-	border-width: 4px;
-	border-color: #20948B;
-	padding: 10px;
-	color: white;
-	font-size: 90%;
-}
-
-#squarespace {
-	box-shadow: 10px 10px #DE7A22;
-	margin-right: 20px;
-	border-style: solid;
-	border-width: 4px;
-	border-color: #20948B;
-	padding: 10px;
-	color: white;
-	font-size: 90%;
-}
-
-#wix {
-	box-shadow: 10px 10px #DE7A22;
+	margin-top: 20px;
 	margin-right: 20px;
 	border-style: solid;
 	border-width: 4px;
@@ -83,7 +62,7 @@ footer { text-align: center;
 
 @media only screen and (max-width: 37.5em) {
 
-	nav 	{ float: none; 
+	nav 	{ float: none;
 			 width: auto;
 			 padding:0em; }
 		
