@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>My Website Guide :: Small Business</title>
+<meta charset="utf-8">
+<script type="text/javascript">
+	function goToNextPage() {
+		var url = document.getElementById('list').value;
+		if (url != 'none') {
+			window.location = url;
+		}
+	}
+</script>
+</head>
+	<body>
+	<header>My Website Guide</header>
+	<br>
+	<nav><a href="index.html">Home</a></nav>
+		<main>
+			<p>What category does your business identify with best?</p>
+			<form>
+				<select name="list" id="list" accesskey="target">
+					<option value="none" selected>Choose business category</option>
+					<option value="small-automotive.html">Automotive</option>
+					<option value="small-support-and-supplies.html">Business Support & Supplies</option>
+					<option value="small-computers-electronics.html">Computers & Electronics</option>
+					<option value="small-construction-contracting.html">Construction & Contracting</option>
+					<option value="small-education.html">Education</option>
+					<option value="small-entertainment.html">Entertainment</option>
+					<option value="small-food-dining.html">Food & Dining</option>
+					<option value="small-health-medicine.html">Health & Medicine</option>
+					<option value="small-home-garden.html">Home & Garden</option>
+					<option value="small-hospitality.html">Hospitality</option>
+					<option value="small-legal-financial.html">Legal & Financial</option>
+					<option value="small-manu-ws-dis.html">Manufacturing, Wholesale, Distribution</option>
+					<option value="small-merchants.html">Merchants (Retail)</option>
+					<option value="small-misc.html">Miscellaneous</option>
+					<option value="small-personal-services.html">Personal Care & Services</option>
+					<option value="small-real-estate.html">Real Estate</option>
+					<option value="small-travel-transport.html">Travel & Transportation</option>
+				</select>
+				<br>
+				<input type="button" value="Next" onclick="goToNextPage()">
+			</form>
+			<br>
+		</main>
+		<footer>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			Creators’ E-Mail: <br><br>
+			<a href="mailto:David.Farrell.15@cnu.edu">David.Farrell.15@cnu.edu</a> &nbsp;
+			<a href="mailto:Matthew.Schuler.14@cnu.edu">Matthew.Schuler.14@cnu.edu</a><br>
+		</footer>
+
+	</body>
+</html>

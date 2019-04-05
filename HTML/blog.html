@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>My Website Guide :: Blog</title>
+<meta charset="utf-8">
+<script type="text/javascript">
+	function goToNextPage() {
+		var url = document.getElementById('list').value;
+		if (url != 'none') {
+			window.location = url;
+		}
+	}
+</script>
+</head>
+	<body>
+	<header>My Website Guide</header>
+	<br>
+	<nav><a href="index.html">Home</a></nav>
+		<main>
+			<p>What kind of blog do you want to create?</p>
+			<form>
+				<select name="list" id="list" accesskey="target">
+					<option value="none" selected>Choose main blog content</option>
+					<option value="textblog.html">Text-based blog</option>
+					<option value="videoblog.html">Video-based blog</option>
+					<option value="pictureblog.html">Picture-based blog</option>
+					<option value="allblog.html">All of the above</option>
+				</select>
+				<br>
+				<input type="button" value="Next" onclick="goToNextPage()">
+			</form>
+			<br>
+		</main>
+		<footer>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			Creators’ E-Mail: <br><br>
+			<a href="mailto:David.Farrell.15@cnu.edu">David.Farrell.15@cnu.edu</a> &nbsp;
+			<a href="mailto:Matthew.Schuler.14@cnu.edu">Matthew.Schuler.14@cnu.edu</a><br>
+		</footer>
+
+	</body>
+</html>
