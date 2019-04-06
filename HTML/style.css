@@ -10,6 +10,9 @@ main	{ padding: 15px;
 		color: white;
 		text-align: center;
 		font-family: Georgia; }
+h3 {
+	color: white;
+}
 		 
 body	{ background-color: #6AB187;
 		 background-image: linear-gradient(to top, #6AB187, #F4CC70);
@@ -32,6 +35,14 @@ nav a 	{ text-decoration: none;
 nav a:link		{ color: #000000; }
 nav a:visited	{ color: #BEBEBE; }
 nav a:hover		{ color: #FFFFFF; }
+table, th, td {
+	color: white;
+	border: 3px solid #DE7A22;
+}
+
+th, td {
+	padding: 15px;
+}
 
 footer { text-align: center;
 		font-family: Georgia;
@@ -58,6 +69,7 @@ footer { text-align: center;
 	padding: 10px;
 	color: white;
 	font-size: 90%;
+	margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 37.5em) {
