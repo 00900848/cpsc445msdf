@@ -1,67 +1,332 @@
-SampleResult.html
 allblog.html
-blog.html
-business.html
+	Option 1
+		Godaddy.com
+	Option 2
+		Wix
+	Option 3
+		Squarespace
+	(No UWS options)
 filestorage.html
+	Option 1
+
+	Option 2
+
+	Option 3
 hobby.html
-index.html
-informational.html
+	Option 1
+		Wordpress
+	Option 2
+		Squarespace
+	Option 3
+		Wix
 landingpage.html
+	Option 1
+		Wix
+	Option 2
+		Squarespace
+	Option 3
+		Wordpress
 large-automotive.html
-large-business.html
+	Option 1
+		Godaddy.com
+	Option 2
+		Dreamhost
+	Option 3
+		Inmotion
 large-computers-electronics.html
+	Option 1
+		Godaddy.com
+	Option 2
+		Weebly
+	Option 3
+		Wix
 large-construction-contracting.html
+	Option 1
+		Squarespace
+	Option 2
+
+	Option 3
 large-education.html
+	Option 1
+
+	Option 2
+
+	Option 3
 large-entertainment.html
+	Option 1
+
+	Option 2
+
+	Option 3
 large-food-dining.html
+	Option 1
+
+	Option 2
+
+	Option 3
 large-health-medicine.html
+	Option 1
+
+	Option 2
+
+	Option 3
 large-home-garden.html
+	Option 1
+
+	Option 2
+
+	Option 3
 large-hospitality.html
+	Option 1
+
+	Option 2
+
+	Option 3
 large-legal-financial.html
+	Option 1
+
+	Option 2
+
+	Option 3
 large-livestream.html
+	Option 1
+
+	Option 2
+
+	Option 3
 large-lsvp.html
+	Option 1
+
+	Option 2
+
+	Option 3
 large-manu-ws-dis.html
+	Option 1
+
+	Option 2
+
+	Option 3
 large-merchants.html
+	Option 1
+
+	Option 2
+
+	Option 3
 large-misc.html
+	Option 1
+
+	Option 2
+
+	Option 3
 large-personal-services.html
+	Option 1
+
+	Option 2
+
+	Option 3
 large-real-estate.html
+	Option 1
+
+	Option 2
+
+	Option 3
 large-support-and-supplies.html
+	Option 1
+
+	Option 2
+
+	Option 3
 large-travel-transport.html
+	Option 1
+
+	Option 2
+
+	Option 3
 large-video-playback.html
-largevidaudience.html
-masterlist.txt
-personalwebsite.html
+	Option 1
+
+	Option 2
+
+	Option 3
 pictureblog.html
+	Option 1
+		Wix
+	Option 2
+		Squarespace
+	Option 3
+		Wordpress
 portfolio.html
+	Option 1
+		Wix
+	Option 2
+		Squarespace
+	Option 3
+		Wordpress
 small-automotive.html
-small-business.html
+	Option 1
+
+	Option 2
+
+	Option 3
 small-computers-electronics.html
+	Option 1
+
+	Option 2
+
+	Option 3
 small-construction-contracting.html
+	Option 1
+
+	Option 2
+
+	Option 3
 small-education.html
+	Option 1
+
+	Option 2
+
+	Option 3
 small-entertainment.html
+	Option 1
+
+	Option 2
+
+	Option 3
 small-food-dining.html
+	Option 1
+
+	Option 2
+
+	Option 3
 small-health-medicine.html
+	Option 1
+
+	Option 2
+
+	Option 3
 small-home-garden.html
+	Option 1
+
+	Option 2
+
+	Option 3
 small-hospitality.html
+	Option 1
+
+	Option 2
+
+	Option 3
 small-legal-financial.html
+	Option 1
+
+	Option 2
+
+	Option 3
 small-livestream.html
+	Option 1
+		AWS EC2 & RDS
+	Option 2
+		Azure
+	Option 3
+		Google
 small-lsvp.html
+	Option 1
+		AWS EC2 & RDS
+	Option 2
+		Azure
+	Option 3
+		Google	
 small-manu-ws-dis.html
+	Option 1
+
+	Option 2
+
+	Option 3
 small-merchants.html
+	Option 1
+
+	Option 2
+
+	Option 3
 small-misc.html
+	Option 1
+
+	Option 2
+
+	Option 3
 small-personal-services.html
+	Option 1
+
+	Option 2
+
+	Option 3
 small-real-estate.html
+	Option 1
+
+	Option 2
+
+	Option 3
 small-support-and-supplies.html
+	Option 1
+
+	Option 2
+
+	Option 3
 small-travel-transport.html
+	Option 1
+
+	Option 2
+
+	Option 3
 small-video-playback.html
-smallvidaudience.html
+	Option 1
+		Godaddy.com
+	Option 2
+		Squarespace
+	Option 3
+		Hostgator.com
 social-media-all.html
+	Option 1
+
+	Option 2
+
+	Option 3
 social-media-pictures.html
+	Option 1
+
+	Option 2
+
+	Option 3
 social-media-text.html
+	Option 1
+
+	Option 2
+
+	Option 3
 social-media-video.html
-socialmedia.html
-style.css
+	Option 1
+
+	Option 2
+
+	Option 3
 textblog.html
+	Option 1
+		Wix
+	Option 2
+		Dreamhost
+	Option 3
+		Bluehost
 videoblog.html
-videostreaming.html
+	Option 1
+		Godaddy.com - Non-wordpress hosting
+	Option 2
+		Squarespace
+	Option 3
+		Hostgator.com
 virtualresume.html
+	Option 1
+		Wix
+	Option 2
+		Squarespae
+	Option 3
+		Wordpress
