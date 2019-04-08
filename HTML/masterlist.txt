@@ -8,10 +8,11 @@ allblog.html
 	(No UWS options)
 filestorage.html
 	Option 1
-
+		AWS EC2 and RDS
 	Option 2
-
+		Microsoft Azure ...
 	Option 3
+		Google ...
 hobby.html
 	Option 1
 		Wordpress
@@ -44,110 +45,128 @@ large-construction-contracting.html
 	Option 1
 		Squarespace
 	Option 2
-
+		Pantheon
 	Option 3
+		Inmotion
 large-education.html
 	Option 1
-
+		HostGator
 	Option 2
-
+		Weebly
 	Option 3
+		Wix
 large-entertainment.html
 	Option 1
-
+		Squarespace
 	Option 2
-
+		Bluehost
 	Option 3
+		Godaddy.com
 large-food-dining.html
 	Option 1
-
+		Wix
 	Option 2
-
+		Dreamhost
 	Option 3
+		Squarespace
 large-health-medicine.html
 	Option 1
-
+		HostGator
 	Option 2
-
+		Bluehost
 	Option 3
+		Dreamhost
 large-home-garden.html
 	Option 1
-
+		Squarespace
 	Option 2
-
+		Wix
 	Option 3
+		Inmotion
 large-hospitality.html
 	Option 1
-
+		Godaddy.com
 	Option 2
-
+		Pantheon
 	Option 3
+		Weebly
 large-legal-financial.html
 	Option 1
-
+		Bluehost
 	Option 2
-
+		Godaddy.com
 	Option 3
-large-livestream.html
+		Dreamhost
+livestream.html
 	Option 1
-
+		AWS EC2 & RDS
 	Option 2
-
+		Azure ...
 	Option 3
-large-lsvp.html
+		Google Cloud Services ...
+lsvp.html
 	Option 1
-
+		AWS EC2 & RDS
 	Option 2
-
+		Azure ...
 	Option 3
+		Google Cloud Services ...
 large-manu-ws-dis.html
 	Option 1
-
+		Inmotion
 	Option 2
-
+		Godaddy.com
 	Option 3
+		Dreamhost
 large-merchants.html
 	Option 1
-
+		Squarespace
 	Option 2
-
+		Godaddy.com
 	Option 3
+		Wix
 large-misc.html
 	Option 1
-
+		Bluehost
 	Option 2
-
+		Dreamhost
 	Option 3
+		Inmotion
 large-personal-services.html
 	Option 1
-
+		Weebly
 	Option 2
-
+		Bluehost
 	Option 3
+		Wix
 large-real-estate.html
 	Option 1
-
+		HostGator
 	Option 2
-
+		Bluehost
 	Option 3
+		Squarespace
 large-support-and-supplies.html
 	Option 1
-
+		Weebly
 	Option 2
-
+		Wix
 	Option 3
+		Godaddy.com
 large-travel-transport.html
 	Option 1
-
+		Squarespace
 	Option 2
-
+		Pantheon
 	Option 3
+		Bluehost
 large-video-playback.html
 	Option 1
-
+		AWS EC2 and RDS
 	Option 2
-
+		Azure ...
 	Option 3
+		Google Cloud ...
 pictureblog.html
 	Option 1
 		Wix
@@ -164,151 +183,151 @@ portfolio.html
 		Wordpress
 small-automotive.html
 	Option 1
-
+		Squarespace
 	Option 2
-
+		Hostgator
 	Option 3
+		Bluehost
 small-computers-electronics.html
 	Option 1
-
+		Weebly
 	Option 2
-
+		Wix
 	Option 3
+		Wordpress & Bluehost
 small-construction-contracting.html
 	Option 1
-
+		Dreamhost
 	Option 2
-
+		Bluehost
 	Option 3
+		Wix
 small-education.html
 	Option 1
-
+		Squarespace
 	Option 2
-
+		Wix
 	Option 3
+		Godaddy.com
 small-entertainment.html
 	Option 1
-
+		Wix
 	Option 2
-
+		Inmotion
 	Option 3
+		HostGator
 small-food-dining.html
 	Option 1
-
+		Squarespace
 	Option 2
-
+		Bluehost
 	Option 3
+		Wix
 small-health-medicine.html
 	Option 1
-
+		HostGator
 	Option 2
-
+		Wix
 	Option 3
+		Inmotion
 small-home-garden.html
 	Option 1
-
+		Wix
 	Option 2
-
+		Squarespace
 	Option 3
+		Bluehost
 small-hospitality.html
 	Option 1
-
+		Dreamhost
 	Option 2
-
+		Bluehost
 	Option 3
+		Weebly
 small-legal-financial.html
 	Option 1
-
+		Godaddy.com
 	Option 2
-
+		Pantheon
 	Option 3
-small-livestream.html
-	Option 1
-		AWS EC2 & RDS
-	Option 2
-		Azure
-	Option 3
-		Google
-small-lsvp.html
-	Option 1
-		AWS EC2 & RDS
-	Option 2
-		Azure
-	Option 3
-		Google	
+		Wix
 small-manu-ws-dis.html
-	Option 1
-
-	Option 2
-
-	Option 3
-small-merchants.html
-	Option 1
-
-	Option 2
-
-	Option 3
-small-misc.html
-	Option 1
-
-	Option 2
-
-	Option 3
-small-personal-services.html
-	Option 1
-
-	Option 2
-
-	Option 3
-small-real-estate.html
-	Option 1
-
-	Option 2
-
-	Option 3
-small-support-and-supplies.html
-	Option 1
-
-	Option 2
-
-	Option 3
-small-travel-transport.html
-	Option 1
-
-	Option 2
-
-	Option 3
-small-video-playback.html
 	Option 1
 		Godaddy.com
 	Option 2
 		Squarespace
 	Option 3
-		Hostgator.com
+		Weebly
+small-merchants.html
+	Option 1
+		Wix
+	Option 2
+		Squarespace
+	Option 3
+		Inmotion
+small-misc.html
+	Option 1
+		Bluehost
+	Option 2
+		Godaddy.com
+	Option 3
+		Wix
+small-personal-services.html
+	Option 1
+		Squarespace
+	Option 2
+		Wix
+	Option 3
+		Dreamhost
+small-real-estate.html
+	Option 1
+		Wix
+	Option 2
+		Godaddy.com
+	Option 3
+		Squarespace
+small-support-and-supplies.html
+	Option 1
+		Weebly
+	Option 2
+		Squarespace
+	Option 3
+		Godaddy.com
+small-travel-transport.html
+	Option 1
+		Wix
+	Option 2
+		Inmotion
+	Option 3
+		Squarespace
 social-media-all.html
 	Option 1
-
+		AWS EC2 and RDS
 	Option 2
-
+		Microsoft Azure ...
 	Option 3
+		Google ...
 social-media-pictures.html
 	Option 1
-
+		AWS EC2 and RDS
 	Option 2
-
+		Microsoft Azure ...
 	Option 3
+		Google ...
 social-media-text.html
 	Option 1
-
+		AWS EC2 and RDS
 	Option 2
-
+		Microsoft Azure ...
 	Option 3
+		Google ...
 social-media-video.html
 	Option 1
-
+		AWS EC2 and RDS
 	Option 2
-
+		Microsoft Azure ...
 	Option 3
+		Google ...
 textblog.html
 	Option 1
 		Wix
