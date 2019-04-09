@@ -12,4 +12,14 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 echo "Connected successfully";
+
+$query = "SELECT * FROM WebServices";
+
+$result = $conn->query($query);
+while ($row = $result->fetch_assoc()) {
+echo $row['domain'];
+echo " ";
+echo $row['w_name'];
+echo "<br>";
+}
 ?> 
