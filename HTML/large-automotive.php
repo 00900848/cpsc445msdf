@@ -78,6 +78,15 @@ include('dbconnect.php');
 				<th>Website</th>
 			</tr>
 			<tr>
+				<?php
+					$query = "SELECT * FROM Freelancer where f_id=1";
+					$result = $conn->query($query);
+					if($row=$result->fetch_assoc()) {
+						echo "<td>". $row['f_name'] ."</td>";
+						echo "<td>". $row['f_email'] ."</td>";
+						echo "<td>". $row['f_website'] ."</td>"
+					}
+				?>
 				<td></td>
 				<td></td>
 				<td></td>
