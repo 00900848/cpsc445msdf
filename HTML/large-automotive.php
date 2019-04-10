@@ -84,7 +84,7 @@ include('dbconnect.php');
 					if($row=$result->fetch_assoc()) {
 						echo "<td>". $row['f_name'] ."</td>";
 						echo "<td>". $row['f_email'] ."</td>";
-						echo "<td>". $row['f_website'] ."</td>"
+						echo "<td>". $row['f_website'] ."</td>";
 					}
 				?>
 				<td></td>
