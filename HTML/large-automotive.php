@@ -31,7 +31,7 @@ include('dbconnect.php');
 			$query = "SELECT * FROM WebServices where w_id=02";
 			$result = $conn->query($query);
 			if($row=$result->fetch_assoc()) {
-			echo "<h3>Option 1.0</h3>";
+			echo "<h3>Option 1</h3>";
 			echo "<h4>". $row['w_name'] ."</h4>";
 			echo "<ul><li>". $row['feature1'] ."</li>";
 			echo "<li>". $row['feature2'] ."</li>";
