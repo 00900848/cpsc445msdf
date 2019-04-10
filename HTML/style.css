@@ -30,6 +30,9 @@ nav		{ text-align: center;
 		 background-color: #20948B;
 		 font-size: 1.5em; 
 		}
+a {
+	font-size: 1.2em;
+}
 
 nav li	{ display: inline-block; }
 
