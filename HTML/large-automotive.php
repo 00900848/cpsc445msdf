@@ -99,6 +99,17 @@ include('dbconnect.php');
 					}
 				?>
 			</tr>
+			<tr>
+				<?php
+					$query = "SELECT * FROM Freelancer where f_id=3";
+					$result = $conn->query($query);
+					if($row=$result->fetch_assoc()) {
+						echo "<td>". $row['f_name'] ."</td>";
+						echo "<td>". $row['f_email'] ."</td>";
+						echo "<td>". $row['f_website'] ."</td>";
+					}
+				?>
+			</tr>
 		</table>
 		<footer>
 			<br><br><br><br><br><br><br><br><br><br><br><br>
