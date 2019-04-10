@@ -153,6 +153,7 @@ include('dbconnect.php');
 				?>
 			</tr>
 		</table>
+		<footer>
 			<br><br><br><br><br><br><br><br><br><br><br><br>
 			Creators’ E-Mail: <br><br>
 			<a href="mailto:David.Farrell.15@cnu.edu">David.Farrell.15@cnu.edu</a> &nbsp;
