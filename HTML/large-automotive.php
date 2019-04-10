@@ -25,48 +25,49 @@ include('dbconnect.php');
 			<p>For a large automotive-based business website, we recommend the following options to you:</p>
 			<br>
 		</main>
+		<h2>Managed Web Services</h2>
 		<section class="flex-container">
 		<div class="option">
 			<?php 
-			$query = "SELECT * FROM WebServices where w_id=02";
-			$result = $conn->query($query);
-			if($row=$result->fetch_assoc()) {
-			echo "<h3>Option 1</h3>";
-			echo "<h4>". $row['w_name'] ."</h4>";
-			echo "<ul><li>". $row['feature1'] ."</li>";
-			echo "<li>". $row['feature2'] ."</li>";
-			echo "<li>". $row['feature3'] ."</li>";
-			echo "</ul>";
-	}
-	?>
+				$query = "SELECT * FROM WebServices where w_id=02";
+				$result = $conn->query($query);
+				if($row=$result->fetch_assoc()) {
+					echo "<h3>Option 1</h3>";
+					echo "<h4>". $row['w_name'] ."</h4>";
+					echo "<ul><li>". $row['feature1'] ."</li>";
+					echo "<li>". $row['feature2'] ."</li>";
+					echo "<li>". $row['feature3'] ."</li>";
+					echo "</ul>";
+				}
+			?>
 		</div>
 		<div class="option">
-                        <?php 
-                        $query = "SELECT * FROM WebServices where w_id=10";
-                        $result = $conn->query($query);
-                        if($row=$result->fetch_assoc()) {
-                        echo "<h3>Option 2</h3>";
-                        echo "<h4>". $row['w_name'] ."</h4>";
-                        echo "<ul><li>". $row['feature1'] ."</li>";
-                        echo "<li>". $row['feature2'] ."</li>";
-                        echo "<li>". $row['feature3'] ."</li>";
-                        echo "</ul>";
-        }
-        ?>
+            <?php 
+                $query = "SELECT * FROM WebServices where w_id=10";
+                $result = $conn->query($query);
+                if($row=$result->fetch_assoc()) {
+                    echo "<h3>Option 2</h3>";
+                    echo "<h4>". $row['w_name'] ."</h4>";
+                    echo "<ul><li>". $row['feature1'] ."</li>";
+                    echo "<li>". $row['feature2'] ."</li>";
+                    echo "<li>". $row['feature3'] ."</li>";
+                    echo "</ul>";
+        		}
+        	?>
 		</div>
 		<div class="option">
-                        <?php 
-                        $query = "SELECT * FROM WebServices where w_id=11";
-                        $result = $conn->query($query);
-                        if($row=$result->fetch_assoc()) {
-                        echo "<h3>Option 3</h3>";
-                        echo "<h4>". $row['w_name'] ."</h4>";
-                        echo "<ul><li>". $row['feature1'] ."</li>";
-                        echo "<li>". $row['feature2'] ."</li>";
-                        echo "<li>". $row['feature3'] ."</li>";
-                        echo "</ul>";
-        }
-        ?>
+    		<?php 
+    			$query = "SELECT * FROM WebServices where w_id=11";
+        		$result = $conn->query($query);
+            	if($row=$result->fetch_assoc()) {
+                    echo "<h3>Option 3</h3>";
+                    echo "<h4>". $row['w_name'] ."</h4>";
+                    echo "<ul><li>". $row['feature1'] ."</li>";
+                    echo "<li>". $row['feature2'] ."</li>";
+                    echo "<li>". $row['feature3'] ."</li>";
+                    echo "</ul>";
+        		}
+        	?>
 		</div>
 		</section>
 		<br>

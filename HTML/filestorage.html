@@ -44,14 +44,37 @@
 				<th>Website</th>
 			</tr>
 			<tr>
-				<td>Matt Schuler</td>
-				<td><a href="mailto:Matthew.Schuler.14@cnu.edu">Matthew.Schuler.14@cnu.edu</a></td>
-				<td><a href="http://www.houlaentertainment.com/matthew-schuler">MatthewSchuler.com</a></td>
+				<?php
+					$query = "SELECT * FROM Freelancer where f_id=4";
+					$result = $conn->query($query);
+					if($row=$result->fetch_assoc()) {
+						echo "<td>". $row['f_name'] ."</td>";
+						echo "<td>". $row['f_email'] ."</td>";
+						echo "<td>". $row['f_website'] ."</td>";
+					}
+				?>
 			</tr>
 			<tr>
-				<td>David Farrell</td>
-				<td><a href="mailto:David.Farrell.15@cnu.edu">David.Farrell.15@cnu.edu</a></td>
-				<td><a href="https://farrelladvisory.com/david-farrell/">DavidFarrell.com</a></td>
+				<?php
+					$query = "SELECT * FROM Freelancer where f_id=3";
+					$result = $conn->query($query);
+					if($row=$result->fetch_assoc()) {
+						echo "<td>". $row['f_name'] ."</td>";
+						echo "<td>". $row['f_email'] ."</td>";
+						echo "<td>". $row['f_website'] ."</td>";
+					}
+				?>
+			</tr>
+			<tr>
+				<?php
+					$query = "SELECT * FROM Freelancer where f_id=1";
+					$result = $conn->query($query);
+					if($row=$result->fetch_assoc()) {
+						echo "<td>". $row['f_name'] ."</td>";
+						echo "<td>". $row['f_email'] ."</td>";
+						echo "<td>". $row['f_website'] ."</td>";
+					}
+				?>
 			</tr>
 		</table>
 		<footer>
