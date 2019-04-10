@@ -6,7 +6,7 @@ include('dbconnect.php');
 <html lang="en">
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
-<title>My Website Guide :: Personal Website</title>
+<title>My Website Guide :: Business: Large Business :: Construction & Contracting</title>
 <meta charset="utf-8">
 <script type="text/javascript">
 	function goToNextPage() {
@@ -25,6 +25,7 @@ include('dbconnect.php');
 			<p>For a large constructing & contracting business website, we recommend the following options to you:</p>
 			<br>
 		</main>
+		<h2>Managed Web Services</h2>
 		<section class="flex-container">
 		<div class="option">
 			<?php 

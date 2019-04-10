@@ -6,7 +6,7 @@ include('dbconnect.php');
 <html lang="en">
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
-<title>My Website Guide :: Personal Website</title>
+<title>My Website Guide :: Business :: Large Business :: Computers & Electronics</title>
 <meta charset="utf-8">
 <script type="text/javascript">
 	function goToNextPage() {
