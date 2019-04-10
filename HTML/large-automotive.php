@@ -72,26 +72,45 @@ include('dbconnect.php');
 		</section>
 		<h2>Unmanaged Web Services</h2>
 		<section class="flex-container">
-			<div class="option">
-				<?php 
-    			$query = "SELECT * FROM WebServices where w_id=27";
-        		$result = $conn->query($query);
-            	if($row=$result->fetch_assoc()) {
-                    echo "<h3>Option 4</h3>";
-                    echo "<h4>". $row['w_name'] ."</h4>";
-                    echo "<ul><li>". $row['feature1'] ."</li>";
-                    echo "<li>". $row['feature2'] ."</li>";
-                    echo "<li>". $row['feature3'] ."</li>";
-                    echo "</ul>";
-        		}
-        	?>
-			</div>
-			<div class="option">
-				
-			</div>
-			<div class="option">
-				
-			</div>
+		<div class="option">
+			<?php 
+				$query = "SELECT * FROM WebServices where w_id=27";
+    			$result = $conn->query($query);
+        		if($row=$result->fetch_assoc()) {
+                	echo "<h3>Option 4</h3>";
+                	echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
+                	echo "<ul><li>". $row['feature1'] ."</li>";
+                	echo "<li>". $row['feature2'] ."</li>";
+                	echo "</ul>";
+    			}
+    		?>
+		</div>
+		<div class="option">
+			<?php 
+				$query = "SELECT * FROM WebServices where w_id=29";
+    			$result = $conn->query($query);
+        		if($row=$result->fetch_assoc()) {
+               		echo "<h3>Option 5</h3>";
+                	echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
+                	echo "<ul><li>". $row['feature1'] ."</li>";
+                	echo "<li>". $row['feature2'] ."</li>";
+                	echo "</ul>";
+    			}
+			?>
+		</div>
+		<div class="option">
+			<?php 
+				$query = "SELECT * FROM WebServices where w_id=31";
+    			$result = $conn->query($query);
+        		if($row=$result->fetch_assoc()) {
+               		echo "<h3>Option 5</h3>";
+                	echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
+                	echo "<ul><li>". $row['feature1'] ."</li>";
+                	echo "<li>". $row['feature2'] ."</li>";
+                	echo "</ul>";
+    			}
+			?>	
+		</div>
 		</section>
 		<br>
 		<h3 align="center">Need help starting your website? Here is a list of freelance web developers who can help you if you choose to use unmanaged web services:</h3>
