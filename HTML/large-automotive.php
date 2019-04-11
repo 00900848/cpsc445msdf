@@ -44,7 +44,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=02";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";

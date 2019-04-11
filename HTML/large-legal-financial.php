@@ -29,7 +29,7 @@ include('dbconnect.php');
 		<section class="flex-container">
 		<div class="option">
 			<?php 
-				$query = "SELECT * FROM WebServices where w_id=19";
+				$query = "SELECT * FROM WebServices where w_id=23";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
 					echo "<h3>Option 1</h3>";
@@ -47,6 +47,17 @@ include('dbconnect.php');
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
 					echo "<h3>Option 2</h3>";
+					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
+					echo "<ul><li>". $row['feature1'] ."</li>";
+					echo "<li>". $row['feature2'] ."</li>";
+					echo "<li>". $row['feature3'] ."</li>";
+					echo "</ul>";
+				}
+			?>
+			<?php 
+				$query = "SELECT * FROM WebServices where w_id=02";
+				$result = $conn->query($query);
+				if($row=$result->fetch_assoc()) {
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
