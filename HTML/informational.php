@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
-<title>My Website Guide :: Personal Website</title>
+<title>My Website Guide :: Informational</title>
 <meta charset="utf-8">
 <script type="text/javascript">
 	function goToNextPage() {
@@ -18,21 +18,49 @@
 	<br>
 	<nav><a href="index.html">Home</a></nav>
 		<main>
-			<p>For a file storage/sharing website, we recommend the following options to you:</p>
+			<p>For an informational website, we recommend the following options to you:</p>
 			<br>
 		</main>
+		<h2>Unmanaged Web Services</h2>
 		<section class="flex-container">
 		<div class="option">
-			<h3>Option 1</h3>
-
+			<?php 
+				$query = "SELECT * FROM WebServices where w_id=27";
+    			$result = $conn->query($query);
+        		if($row=$result->fetch_assoc()) {
+                	echo "<h3>Option 4</h3>";
+                	echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
+                	echo "<ul><li>". $row['feature1'] ."</li>";
+                	echo "<li>". $row['feature2'] ."</li>";
+                	echo "</ul>";
+    			}
+    		?>
 		</div>
 		<div class="option">
-			<h3>Option 2</h3>
-			
+			<?php 
+				$query = "SELECT * FROM WebServices where w_id=29";
+    			$result = $conn->query($query);
+        		if($row=$result->fetch_assoc()) {
+               		echo "<h3>Option 5</h3>";
+                	echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
+                	echo "<ul><li>". $row['feature1'] ."</li>";
+                	echo "<li>". $row['feature2'] ."</li>";
+                	echo "</ul>";
+    			}
+			?>
 		</div>
 		<div class="option">
-			<h3>Option 3</h3>
-			
+			<?php 
+				$query = "SELECT * FROM WebServices where w_id=31";
+    			$result = $conn->query($query);
+        		if($row=$result->fetch_assoc()) {
+               		echo "<h3>Option 6</h3>";
+                	echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
+                	echo "<ul><li>". $row['feature1'] ."</li>";
+                	echo "<li>". $row['feature2'] ."</li>";
+                	echo "</ul>";
+    			}
+			?>	
 		</div>
 		</section>
 		<br>
@@ -45,7 +73,18 @@
 			</tr>
 			<tr>
 				<?php
-					$query = "SELECT * FROM Freelancer where f_id=4";
+					$query = "SELECT * FROM Freelancer where f_id=1";
+					$result = $conn->query($query);
+					if($row=$result->fetch_assoc()) {
+						echo "<td>". $row['f_name'] ."</td>";
+						echo "<td>". $row['f_email'] ."</td>";
+						echo "<td>". $row['f_website'] ."</td>";
+					}
+				?>
+			</tr>
+			<tr>
+				<?php
+					$query = "SELECT * FROM Freelancer where f_id=2";
 					$result = $conn->query($query);
 					if($row=$result->fetch_assoc()) {
 						echo "<td>". $row['f_name'] ."</td>";
@@ -57,17 +96,6 @@
 			<tr>
 				<?php
 					$query = "SELECT * FROM Freelancer where f_id=3";
-					$result = $conn->query($query);
-					if($row=$result->fetch_assoc()) {
-						echo "<td>". $row['f_name'] ."</td>";
-						echo "<td>". $row['f_email'] ."</td>";
-						echo "<td>". $row['f_website'] ."</td>";
-					}
-				?>
-			</tr>
-			<tr>
-				<?php
-					$query = "SELECT * FROM Freelancer where f_id=1";
 					$result = $conn->query($query);
 					if($row=$result->fetch_assoc()) {
 						echo "<td>". $row['f_name'] ."</td>";
