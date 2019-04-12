@@ -43,7 +43,7 @@ include('dbconnect.php');
 		</div>
 		<div class="option">
 			<?php 
-				$query = "SELECT * FROM WebServices where w_id=10";
+				$query = "SELECT * FROM WebServices where w_id=34";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
 					echo "<h3>Option 2</h3>";
