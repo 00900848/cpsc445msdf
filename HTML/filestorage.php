@@ -25,11 +25,14 @@ include('dbconnect.php');
 			<p>For a file storage/sharing website, we recommend the following options to you:</p>
 			<br>
 		</main>
-		<?php 
+		<h2>Unmanaged Web Services</h2>
+		<section class="flex-container">
+		<div class="option">
+			<?php 
 				$query = "SELECT * FROM WebServices where w_id=28";
-    			$result = $conn->query($query);
-        		if($row=$result->fetch_assoc()) {
-                	echo "<h3>Option 4</h3>";
+				$result = $conn->query($query);
+    			if($row=$result->fetch_assoc()) {
+            		echo "<h3>Option 4</h3>";
                 	echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
                 	echo "<ul><li>". $row['feature1'] ."</li>";
                 	echo "<li>". $row['feature2'] ."</li>";
