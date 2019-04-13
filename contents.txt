@@ -1,0 +1,11 @@
+Matthew Schuler 00900848, David Farrell 00913982
+https://github.com/00900848/cpsc445msdf
+mywebsiteguide.net
+CapstoneKeyPair.pem - Key pair used to access the AWS EC2 instance via ssh
+Database
+ERD
+HTML
+README.md
+Web Scraper
+contents.txt
+dbconnect.php
