@@ -8,6 +8,7 @@ include('dbconnect.php');
 <link rel="stylesheet" type="text/css" href="style.css">
 <title>My Website Guide :: Blog :: Video-Based Blog</title>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script type="text/javascript">
 	function goToNextPage() {
 		var url = document.getElementById('list').value;
@@ -18,6 +19,7 @@ include('dbconnect.php');
 </script>
 </head>
 	<body>
+	<div class="wrapper">
 	<header>My Website Guide</header>
 	<br>
 	<nav><a href="index.html">Home</a></nav>
@@ -109,6 +111,6 @@ include('dbconnect.php');
 			<a href="mailto:David.Farrell.15@cnu.edu">David.Farrell.15@cnu.edu</a> &nbsp;
 			<a href="mailto:Matthew.Schuler.14@cnu.edu">Matthew.Schuler.14@cnu.edu</a><br>
 		</footer>
-
+	</div>
 	</body>
 </html>
