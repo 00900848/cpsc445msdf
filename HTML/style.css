@@ -101,4 +101,8 @@ footer { text-align: center;
 		min-width: 20em;
 		max-width: 37.5em;
 	}
+
+	table {
+		font-size: 1em;
+	}
 }
