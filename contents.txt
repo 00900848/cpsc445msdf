@@ -71,7 +71,7 @@ HTML
 	videostreaming.html - After user selects "video-streaming", they are taken to this page and are asked what specifically they want for a video-streaming website
 	virtualresume.php - Results page for virtual resume
 
-README.md
+README.md - README for basic overview of project
 Web Scraper
 contents.txt
 dbconnect.php
