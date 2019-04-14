@@ -81,7 +81,7 @@ include('dbconnect.php');
 		</div>
 		<div class="option">
     		<?php 
-    			$query = "SELECT * FROM WebServices where w_id=04";
+    			$query = "SELECT * FROM WebServices where w_id=01";
         		$result = $conn->query($query);
             	if($row=$result->fetch_assoc()) {
                     echo "<h3>Option 3</h3>";
@@ -93,7 +93,7 @@ include('dbconnect.php');
         		}
         	?>
         	<?php 
-				$query = "SELECT * FROM WebServices where w_id=02";
+				$query = "SELECT * FROM WebServices where w_id=03";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";

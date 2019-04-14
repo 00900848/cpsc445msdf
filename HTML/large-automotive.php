@@ -31,6 +31,20 @@ include('dbconnect.php');
 		<section class="flex-container">
 		<div class="option">
 			<?php 
+                $query = "SELECT * FROM WebServices where w_id=34";
+                $result = $conn->query($query);
+                if($row=$result->fetch_assoc()) {
+                    echo "<h3>Option 2</h3>";
+                    echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
+                    echo "<ul><li>". $row['feature1'] ."</li>";
+                    echo "<li>". $row['feature2'] ."</li>";
+                    echo "<li>". $row['feature3'] ."</li>";
+                    echo "</ul>";
+        		}
+        	?>
+		</div>
+		<div class="option">
+        	<?php 
 				$query = "SELECT * FROM WebServices where w_id=04";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
@@ -55,22 +69,8 @@ include('dbconnect.php');
 			?>
 		</div>
 		<div class="option">
-            <?php 
-                $query = "SELECT * FROM WebServices where w_id=34";
-                $result = $conn->query($query);
-                if($row=$result->fetch_assoc()) {
-                    echo "<h3>Option 2</h3>";
-                    echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
-                    echo "<ul><li>". $row['feature1'] ."</li>";
-                    echo "<li>". $row['feature2'] ."</li>";
-                    echo "<li>". $row['feature3'] ."</li>";
-                    echo "</ul>";
-        		}
-        	?>
-		</div>
-		<div class="option">
     		<?php 
-    			$query = "SELECT * FROM WebServices where w_id=11";
+    			$query = "SELECT * FROM WebServices where w_id=12";
         		$result = $conn->query($query);
             	if($row=$result->fetch_assoc()) {
                     echo "<h3>Option 3</h3>";

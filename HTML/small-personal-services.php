@@ -60,10 +60,21 @@ include('dbconnect.php');
 		</div>
 		<div class="option">
     		<?php 
-    			$query = "SELECT * FROM WebServices where w_id=33";
+    			$query = "SELECT * FROM WebServices where w_id=01";
         		$result = $conn->query($query);
             	if($row=$result->fetch_assoc()) {
                     echo "<h3>Option 3</h3>";
+                    echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
+                    echo "<ul><li>". $row['feature1'] ."</li>";
+                    echo "<li>". $row['feature2'] ."</li>";
+                    echo "<li>". $row['feature3'] ."</li>";
+                    echo "</ul>";
+        		}
+        	?>
+    		<?php 
+    			$query = "SELECT * FROM WebServices where w_id=33";
+        		$result = $conn->query($query);
+            	if($row=$result->fetch_assoc()) {
                     echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
                     echo "<ul><li>". $row['feature1'] ."</li>";
                     echo "<li>". $row['feature2'] ."</li>";

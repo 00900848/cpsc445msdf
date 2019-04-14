@@ -31,7 +31,7 @@ include('dbconnect.php');
 		<section class="flex-container">
 		<div class="option">
 			<?php 
-				$query = "SELECT * FROM WebServices where w_id=26";
+				$query = "SELECT * FROM WebServices where w_id=12";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
 					echo "<h3>Option 1</h3>";
@@ -59,7 +59,7 @@ include('dbconnect.php');
 		</div>
 		<div class="option">
 			<?php 
-				$query = "SELECT * FROM WebServices where w_id=23";
+				$query = "SELECT * FROM WebServices where w_id=20";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
 					echo "<h3>Option 3</h3>";
