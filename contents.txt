@@ -73,5 +73,7 @@ HTML
 
 README.md - README for basic overview of project
 Web Scraper
-contents.txt
-dbconnect.php
+	README.md - Contains info on web scraper prototype
+	scraperv1.py - First attempt at making a web scraping program for Bluehost. It did not work the way we wanted it to.
+
+dbconnect.php - Used to connect PHP pages to the database
