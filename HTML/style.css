@@ -9,7 +9,8 @@ header { color: WHITE;
 main	{ padding: 15px;
 		color: white;
 		text-align: center;
-		font-family: Georgia; }
+		font-family: Georgia;
+		font-size: 3em; }
 
 h2 {
 	color: white;

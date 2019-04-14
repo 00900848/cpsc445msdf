@@ -49,7 +49,6 @@ include('dbconnect.php');
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
-					echo "<li>". $row['feature3'] ."</li>";
 					echo "</ul>";
 				}
 			?>

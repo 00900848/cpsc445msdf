@@ -2,9 +2,75 @@ Matthew Schuler 00900848, David Farrell 00913982
 https://github.com/00900848/cpsc445msdf
 mywebsiteguide.net
 CapstoneKeyPair.pem - Key pair used to access the AWS EC2 instance via ssh
-Database
 ERD
+	ERD.pdf - The entity relationship diagram for our database
+	ERD.vsdx - The entity relationship diagram for our database that can only be opened in Visio
 HTML
+	MyWebsiteGuide_File_Paths.rtf - Shows all paths of where all pages lead and end
+	README.md - Basic description of what is contained in this folder (used for GitHub)
+	SampleResult.html - Early concept of what we wanted results pages to look like
+	allblog.php - Results page for multi-content blog
+	blog.html - After user selects "blog", they are taken to this page and are asked another set of questions
+	business.html - After user selects "business", they are taken to this page and are asked if the business is large or small
+	filestorage.php - Results page for file storage/sharing
+	hobby.php - Results page for hobby
+	index.html - Home page
+	informational.php - Results page for informational
+	landingpage.php - Results page for landing page
+	large-automotive.php - Results page for large automotive business
+	large-business.html - After user selects "large business", they are taken to this page and are asked what kind of business it is
+	large-computers-electronics.php - Results page for large computers & electronics business
+	large-construction-contracting.php - Results page for large construction & contracting business
+	large-education.php - Results page for large education business
+	large-entertainment.php - Results page for large entertainment business
+	large-food-dining.php - Results page for large food & dining business
+	large-health-medicine.php - Results page for large health & medicine business
+	large-home-garden.php - Results page for large home & garden business
+	large-hospitality.php - Results page for large hospitality business
+	large-legal-financial.php - Results page for large legal & financial business
+	large-manu-ws-dis.php - Results page for large manufacturing, wholesale, distribution business
+	large-merchants.php - Results page for large merchant (retail) business
+	large-misc.php - Results page for large miscellaneous business
+	large-personal-services.php - Results page for large personal care & services business
+	large-real-estate.php - Results page for large real estate business
+	large-support-and-supplies.php - Results page for large business support & supplies business
+	large-travel-transport.php - Results page for large travel & transport business
+	livestream.php - Results page for live-stream
+	lsvp.php - Results page for live-stream and video-playback
+	masterlist.txt - List of all files in directory that assigned each results page different web services we deemed appropriate. The document is outdated, since we changed our minds on some results
+	personalwebsite.html - After user selects "personal website", they are taken to this page and are asked what kind of personal website they want to make
+	pictureblog.php - Results page for picture-based blog
+	portfolio.php - Results page for portfolio
+	small-automotive.php - Results page for small automotive business
+	small-business.html
+	small-computers-electronics.php - Results page for small computers & electronics
+	small-construction-contracting.php - Results page for small construction & contracting
+	small-education.php - Results page for small education
+	small-entertainment.php - Results page for small entertainment
+	small-food-dining.php - Results page for small food & dining
+	small-health-medicine.php - Results page for small health & medicine
+	small-home-garden.php - Results page for small home & garden
+	small-hospitality.php - Results page for small hospitality
+	small-legal-financial.php - Results page for small legal & financial
+	small-manu-ws-dis.php - Results page for small manufacturing, wholesale, distribution
+	small-merchants.php - Results page for small merchant (retail)
+	small-misc.php - Results page for small miscellaneous
+	small-personal-services.php - Results page for small personal care & services
+	small-real-estate.php - Results page for small real estate
+	small-support-and-supplies.php - Results page for small business support & supplies
+	small-travel-transport.php - Results page for small travel & transport
+	social-media-all.php - Results page for multi-content social media
+	social-media-pictures.php - Results page for picture-based social media
+	social-media-text.php - Results page for text-based social media
+	social-media-video.php - Results page for video-based social media
+	socialmedia.html - After user selects "social media", they are taken to this page and are asked what kind of social media website they want to make
+	style.css - Style sheet of all HTML/PHP pages in this folder
+	textblog.php - Results page for text-based blog
+	video-playback.php - Results page for video-playback
+	videoblog.php - Results page for video-based blog
+	videostreaming.html - After user selects "video-streaming", they are taken to this page and are asked what specifically they want for a video-streaming website
+	virtualresume.php - Results page for virtual resume
+
 README.md
 Web Scraper
 contents.txt
