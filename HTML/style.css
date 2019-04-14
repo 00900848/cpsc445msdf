@@ -76,7 +76,7 @@ footer { text-align: center;
 	color: WHITE; }
 
 .striped-border {
-        border: 3px dashed #000;
+        border: 3px solid #000;
         border-color: #20948B;
         width: 100%;
         margin: auto;
