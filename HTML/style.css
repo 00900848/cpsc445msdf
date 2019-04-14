@@ -4,13 +4,16 @@ header { color: WHITE;
 		text-align: center;
 		height: 130px;
 		padding-top: 15px; 
-		border-radius: 15px; }
+		border-radius: 15px;
+		text-decoration: underline; }
 		
 main	{ padding: 15px;
 		color: white;
 		text-align: center;
 		font-family: Georgia;
 		font-size: 2em; }
+
+
 
 h2 {
 	color: white;
@@ -65,6 +68,20 @@ footer { text-align: center;
 		height: 100px;
 		bottom: 0;
 		width: 100%; }
+
+.intro {
+	text-align: center;
+	font-family: Georgia;
+	font-size: x-large;
+	color: WHITE; }
+
+.striped-border {
+        border: 3px dashed #000;
+        border-color: #20948B;
+        width: 100%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%; }
 
 .flex-container {
 	display: flex;
