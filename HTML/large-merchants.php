@@ -19,6 +19,7 @@ include('dbconnect.php');
 </script>
 </head>
 	<body>
+	<a name="#top"></a>
 	<div class="wrapper">
 	<header>My Website Guide</header>
 	<br>
@@ -154,8 +155,10 @@ include('dbconnect.php');
 				?>
 			</tr>
 		</table>
+		<p class="all-options">Need more options? Click <a href="all-options.php">here</a> to navigate to a page with all options displayed.</p>
 		<footer>
 			<br><br><br><br><br><br><br><br><br><br><br><br>
+			<a href="#top">Back to top of page</a><br><br>
 			Creators’ E-Mail: <br><br>
 			<a href="mailto:David.Farrell.15@cnu.edu">David.Farrell.15@cnu.edu</a> &nbsp;
 			<a href="mailto:Matthew.Schuler.14@cnu.edu">Matthew.Schuler.14@cnu.edu</a><br>
