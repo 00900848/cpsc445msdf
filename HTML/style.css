@@ -26,6 +26,9 @@ body	{ background-color: #6AB187;
 		 background-repeat: no-repeat;
 		 padding-bottom: 100px; 
 		}
+form {
+	font-size: 1.1em;
+}
 		 
 nav		{ text-align: center;
 		 background-color: #20948B;
@@ -101,6 +104,10 @@ footer { text-align: center;
 	.wrapper {
 		min-width: 20em;
 		max-width: 37.5em;
+	}
+
+	.option {
+		font-size: 1.2em;
 	}
 
 	th, td {
