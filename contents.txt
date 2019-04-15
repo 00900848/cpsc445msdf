@@ -10,6 +10,7 @@ HTML
 	README.md - Basic description of what is contained in this folder (used for GitHub)
 	SampleResult.html - Early concept of what we wanted results pages to look like
 	allblog.php - Results page for multi-content blog
+	all-options.php - Shows all options
 	blog.html - After user selects "blog", they are taken to this page and are asked another set of questions
 	business.html - After user selects "business", they are taken to this page and are asked if the business is large or small
 	filestorage.php - Results page for file storage/sharing
