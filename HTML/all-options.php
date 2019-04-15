@@ -35,7 +35,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=01";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -49,7 +48,6 @@ include('dbconnect.php');
                 $query = "SELECT * FROM WebServices where w_id=02";
                 $result = $conn->query($query);
                 if($row=$result->fetch_assoc()) {
-                    echo "<h3>Option 2</h3>";
                     echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
                     echo "<ul><li>". $row['feature1'] ."</li>";
                     echo "<li>". $row['feature2'] ."</li>";
@@ -63,7 +61,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=03";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -77,7 +74,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=04";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -91,7 +87,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=05";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -105,7 +100,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=06";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -119,7 +113,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=07";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -133,7 +126,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=08";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -147,7 +139,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=09";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -161,7 +152,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=10";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -174,7 +164,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=11";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -188,7 +177,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=12";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -202,7 +190,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=13";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -216,7 +203,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=14";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -230,7 +216,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=15";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -244,7 +229,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=16";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -258,7 +242,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=17";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -272,7 +255,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=18";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -286,7 +268,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=19";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -300,7 +281,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=20";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -314,7 +294,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=21";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -328,7 +307,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=22";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -342,7 +320,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=23";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -356,7 +333,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=24";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -370,7 +346,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=25";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -384,7 +359,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=26";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -398,7 +372,6 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=33";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -412,7 +385,7 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=34";
 				$result = $conn->query($query);
 				if($row=$result->fetch_assoc()) {
-					echo "<h3>Option 1</h3>";
+					
 					echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
 					echo "<ul><li>". $row['feature1'] ."</li>";
 					echo "<li>". $row['feature2'] ."</li>";
@@ -429,7 +402,7 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=28";
     			$result = $conn->query($query);
         		if($row=$result->fetch_assoc()) {
-                	echo "<h3>Option 4</h3>";
+                	
                 	echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
                 	echo "<ul><li>". $row['feature1'] ."</li>";
                 	echo "<li>". $row['feature2'] ."</li>";
@@ -442,7 +415,7 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=30";
     			$result = $conn->query($query);
         		if($row=$result->fetch_assoc()) {
-               		echo "<h3>Option 5</h3>";
+               		
                 	echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
                 	echo "<ul><li>". $row['feature1'] ."</li>";
                 	echo "<li>". $row['feature2'] ."</li>";
@@ -455,7 +428,7 @@ include('dbconnect.php');
 				$query = "SELECT * FROM WebServices where w_id=32";
     			$result = $conn->query($query);
         		if($row=$result->fetch_assoc()) {
-               		echo "<h3>Option 6</h3>";
+               		
                 	echo "<a href='" . $row['domain'] . "'>" . $row['w_name'] . "</a>";
                 	echo "<ul><li>". $row['feature1'] ."</li>";
                 	echo "<li>". $row['feature2'] ."</li>";
