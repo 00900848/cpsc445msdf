@@ -4,6 +4,8 @@ mywebsiteguide.net
 CapstoneKeyPair.pem - Key pair used to access the AWS EC2 instance via ssh
 Architecture Diagram
 	High Level View of Breakdown Questions.png - Overview of web app architecture and how it flows
+Database
+	CapstoneDatabase.txt - All SQL queries
 Documentation
 	Capstone Documentation.docx - Summaries of weekly updates provided here
 	CPSC445W Stakeholder Identification.docx - Discussion of who the target audience will be and all the people involved
