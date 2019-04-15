@@ -2,6 +2,10 @@ Matthew Schuler 00900848, David Farrell 00913982
 https://github.com/00900848/cpsc445msdf
 mywebsiteguide.net
 CapstoneKeyPair.pem - Key pair used to access the AWS EC2 instance via ssh
+Documentation
+	Capstone Documentation.docx - Summaries of weekly updates provided here
+	CPSC445W Stakeholder Identification.docx - Discussion of who the target audience will be and all the people involved
+	CPSC445W System Vision Document.docx - Describes function, mission, and purpose of our web app
 ERD
 	ERD.pdf - The entity relationship diagram for our database
 	ERD.vsdx - The entity relationship diagram for our database that can only be opened in Visio
@@ -71,6 +75,13 @@ HTML
 	videoblog.php - Results page for video-based blog
 	videostreaming.html - After user selects "video-streaming", they are taken to this page and are asked what specifically they want for a video-streaming website
 	virtualresume.php - Results page for virtual resume
+Mockups
+	Blog Option Results.png - Displays results for blog option
+	Blog Option.png - Displays first path after home page
+	Home Page.png - Home page for our web app
+	README.md - Basic description of folder
+	Video-streaming Results.png - Displays results for video-streaming
+	Video-streaming.png - Displays another path after home page
 
 README.md - README for basic overview of project
 Web Scraper
