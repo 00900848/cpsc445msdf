@@ -2,6 +2,8 @@ Matthew Schuler 00900848, David Farrell 00913982
 https://github.com/00900848/cpsc445msdf
 mywebsiteguide.net
 CapstoneKeyPair.pem - Key pair used to access the AWS EC2 instance via ssh
+Architecture Diagram
+	High Level View of Breakdown Questions.png - Overview of web app architecture and how it flows
 Documentation
 	Capstone Documentation.docx - Summaries of weekly updates provided here
 	CPSC445W Stakeholder Identification.docx - Discussion of who the target audience will be and all the people involved
@@ -42,7 +44,7 @@ HTML
 	large-travel-transport.php - Results page for large travel & transport business
 	livestream.php - Results page for live-stream
 	lsvp.php - Results page for live-stream and video-playback
-	masterlist.txt - List of all files in directory that assigned each results page different web services we deemed appropriate. The document is outdated, since we changed our minds on some results
+	masterlist.txt - List of all files in directory that assigned each results page different web services we deemed appropriate. The document was just updated to shuffle results so the same options wouldn't appear too frequently
 	personalwebsite.html - After user selects "personal website", they are taken to this page and are asked what kind of personal website they want to make
 	pictureblog.php - Results page for picture-based blog
 	portfolio.php - Results page for portfolio
